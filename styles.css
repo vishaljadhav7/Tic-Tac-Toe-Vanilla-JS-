@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.board{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 250px;
+    height:300px;
+    background-color: coral;
+    border-radius: 10px;
+    color: white;
+}
+
+h1,h4{
+    text-align: center;
+}
+
+table{
+    margin: 0 auto;
+}
+.square-btn{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: blueviolet;
+    color: white;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+button:hover{
+   cursor: pointer;
+}
+
+/* <button class="square-btn"></button> */
+.Restart{
+    border: 1px solid white;
+    background-color: blueviolet;
+    color: white;
+    margin: 2px;
+    border-radius: 10px;
+    height: 30px;
+    display: none;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
